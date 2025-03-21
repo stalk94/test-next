@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npx open-cli http://localhost:3000 & next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/react": "19.0.12",
     "autoprefixer": "^10.4.21",
+    "open-cli": "^8.0.0",
     "postcss": "^8.5.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
