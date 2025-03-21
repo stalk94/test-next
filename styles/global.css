@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background: #12151a;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+}
+
+.UserList {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.Row {
+    display: flex;
+    border: 1px dotted rgba(156, 155, 155, 0.156);
+    
+}
+.Cell {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right: 1px solid rgba(156, 155, 155, 0.156);
+    color: #c4c4c4bd;
+}
+
+#age {
+  cursor: pointer;
+}
+#age:hover {
+  background: #2c3b5344;
+}
+#city {
+  cursor: pointer;
+}
+#city:hover {
+  background: #2c3b5344;
+}
+
+label {
+    color: rgb(204, 204, 204)
+}
+.sort-button,
+.reset-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+.sort-button {
+  border: 2px solid #456384cd;
+  background: #1E2939;
+  color: white;
+  margin-right: 10px;
+}
+
+.sort-button:hover {
+  background: #2d3c52;
+}
+
+.reset-button {
+  border: 2px solid #456384cd;
+  background: #1E2939;
+  color: rgb(173, 173, 173);
+}
+
+.reset-button:hover {
+  background-color: #5a6268;
+}
+input {
+    padding: 8px 14px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #456384cd;
+    background: #252e3d;;
+    color: white;
+}
