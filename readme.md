@@ -38,7 +38,7 @@ SortOptions — для выбора типа сортировки (по имен
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/stalk94/test-job
+   git clone https://github.com/stalk94/test-next
    
 2. Установите зависимости node:
 
